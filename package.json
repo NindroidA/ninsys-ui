@@ -2,7 +2,8 @@
   "name": "ninsys-ui",
   "version": "1.0.0",
   "description": "UI components for Nindroid Systems react apps",
-  "module": "index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "type": "module",
   "private": true,
   "devDependencies": {
