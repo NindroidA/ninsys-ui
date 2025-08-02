@@ -1,0 +1,20 @@
+{
+  "name": "ninsys-ui",
+  "version": "1.0.0",
+  "description": "UI components for Nindroid Systems react apps",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "framer-motion": "^12.23.12",
+    "react": "^19.1.1",
+    "tailwindcss": "^4.1.11",
+    "tsup": "^8.5.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
