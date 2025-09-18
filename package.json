@@ -1,6 +1,6 @@
 {
   "name": "@nindroidsystems/ui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "UI components for Nindroid Systems projects",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
