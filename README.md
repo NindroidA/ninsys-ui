@@ -1,3 +1,3 @@
 # ninsys-ui
 
-UI components for Nindroid Systems react apps.
+UI components for Nindroid Systems projects.
