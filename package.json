@@ -1,6 +1,6 @@
 {
-  "name": "ninsys-ui",
-  "version": "1.0.3",
+  "name": "@nindroidsystems/ui",
+  "version": "1.0.0",
   "description": "UI components for Nindroid Systems projects",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
