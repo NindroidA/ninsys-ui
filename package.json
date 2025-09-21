@@ -4,11 +4,15 @@
   "description": "UI components for Nindroid Systems projects",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types": "./dist/indx.d.ts",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
