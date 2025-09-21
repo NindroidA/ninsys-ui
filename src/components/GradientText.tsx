@@ -6,7 +6,7 @@ interface GradientTextProps {
     className?: string;
 }
 
-export function GradientText({ children, variant = 'primary', className = '' }: GradientTextProps) {
+export default function GradientText({ children, variant = 'primary', className = '' }: GradientTextProps) {
     const variants = {
         primary: 'bg-gradient-to-r from-violet-400 via-purple-700 to-pink-300',
         secondary: 'bg-gradient-to-r from-cyan-400 to-blue-500',

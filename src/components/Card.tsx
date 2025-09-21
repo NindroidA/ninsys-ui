@@ -10,7 +10,7 @@ interface CardProps {
     delay?: number;
 }
 
-export function Card({ children, className = '', variant = 'default', hover = true, animate = true,delay = 0 }: CardProps) {
+export default function Card({ children, className = '', variant = 'default', hover = true, animate = true,delay = 0 }: CardProps) {
     const baseClasses = "rounded-2xl border transition-all duration-500";
   
     const variants = {

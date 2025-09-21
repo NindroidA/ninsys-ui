@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-export function FloatingElements() {
+export default function FloatingElements() {
     return (
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <motion.div

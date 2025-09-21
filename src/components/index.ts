@@ -1,7 +1,8 @@
-export { Badge } from './Badge';
-export { Button } from './Button';
-export { Card } from './Card';
-export { FloatingElements } from './FloatingElements';
-export { GradientText } from './GradientText';
-export { Grid } from './Grid';
-export { Section } from './Section';
+export { default as Badge } from './Badge';
+export { default as Button } from './Button';
+export { default as Card } from './Card';
+export { default as FloatingElements } from './FloatingElements';
+export { default as GradientText } from './GradientText';
+export { default as Grid } from './Grid';
+export { default as Section } from './Section';
+

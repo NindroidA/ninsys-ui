@@ -7,7 +7,7 @@ interface GridProps {
     className?: string;
 }
 
-export function Grid({ children, cols = 3, gap = 'lg', className = '' }: GridProps) {
+export default function Grid({ children, cols = 3, gap = 'lg', className = '' }: GridProps) {
     const colClasses = {
         1: 'grid-cols-1',
         2: 'grid-cols-1 md:grid-cols-2',

@@ -13,7 +13,7 @@ interface ButtonProps {
     type?: 'button' | 'submit' | 'reset';
 }
 
-export function Button({ children, onClick, variant = 'primary', size = 'md', disabled = false, className = '', href, target, type = 'button' }: ButtonProps) {
+export default function Button({ children, onClick, variant = 'primary', size = 'md', disabled = false, className = '', href, target, type = 'button' }: ButtonProps) {
     const baseClasses = "rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2 border";
     
     const variants = {

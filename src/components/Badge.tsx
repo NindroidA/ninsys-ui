@@ -7,7 +7,7 @@ interface BadgeProps {
 	className?: string;
 }
 
-export function Badge({ children, variant = 'default', size = 'md', className = '' }: BadgeProps) {
+export default function Badge({ children, variant = 'default', size = 'md', className = '' }: BadgeProps) {
 	const variants = {
 		default: 'bg-white/20 text-white/90 border-white/30',
 		success: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',

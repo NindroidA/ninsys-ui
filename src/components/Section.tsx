@@ -11,7 +11,7 @@ interface SectionProps {
     maxWidth?: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '6xl' | 'full';
 }
 
-export function Section({ children, title, subtitle, className = '', background = 'none', padding = 'lg', maxWidth = '6xl' }: SectionProps) {
+export default function Section({ children, title, subtitle, className = '', background = 'none', padding = 'lg', maxWidth = '6xl' }: SectionProps) {
     const backgrounds = {
         none: '',
         subtle: 'bg-gradient-to-b from-white/5 via-transparent to-white/5 backdrop-blur-3xl',
