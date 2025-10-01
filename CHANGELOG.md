@@ -1,4 +1,4 @@
-# v1.1.2
+# v1.1.2-1.1.3
 - Forgor to add index.ts into utils directory.
 - Added export of utils directory to main project index.
 
