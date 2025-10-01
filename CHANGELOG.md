@@ -1,3 +1,7 @@
+# v1.1.5
+- I'm making this quite convoluted lmao.
+- Fixed publish workflow duplicate push (just went back to original).
+
 # v1.1.4
 - Nah, byebye to the whole ScrollToTop foolery.
 
