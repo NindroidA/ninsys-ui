@@ -1,12 +1,4 @@
-import type { ReactNode } from 'react';
-
-interface GridProps {
-    children: ReactNode;
-    cols?: 1 | 2 | 3 | 4 | 5 | 6;
-    gap?: 'sm' | 'md' | 'lg' | 'xl';
-    className?: string;
-    responsive?: boolean;
-}
+import type { GridProps } from '../types/components';
 
 export default function Grid({ 
     children, 

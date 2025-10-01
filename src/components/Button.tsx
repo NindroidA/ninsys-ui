@@ -1,20 +1,5 @@
 import { motion } from 'framer-motion';
-import type { ReactNode } from 'react';
-
-interface ButtonProps {
-    children: ReactNode;
-    onClick?: () => void;
-    variant?: 'primary' | 'secondary' | 'ghost' | 'gradient' | 'glass' | 'outline';
-    size?: 'sm' | 'md' | 'lg';
-    disabled?: boolean;
-    className?: string;
-    href?: string;
-    target?: string;
-    type?: 'button' | 'submit' | 'reset';
-    icon?: ReactNode;
-    iconPosition?: 'left' | 'right';
-    fullWidth?: boolean;
-}
+import type { ButtonProps } from '../types/components';
 
 export default function Button({ 
     children, 

@@ -1,6 +1,11 @@
+# v1.1.1
+- Organized types directory for components.
+- Updated trigger for publish workflow
+- Updated bun dependencies.
+
 # v1.1.0
-Components updated with more options/parameters for customization.
-Added utils directory will ScrollToTop component (to make pages scroll to the top for whatever reason).
+- Components updated with more options/parameters for customization.
+- Added utils directory will ScrollToTop component (to make pages scroll to the top for whatever reason).
 
 ## Badge
 - Added more color variants: `purple`, `pink`, `cyan`

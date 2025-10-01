@@ -1,16 +1,5 @@
 import { motion } from 'framer-motion';
-import type { ReactNode } from 'react';
-
-interface CardProps {
-    children: ReactNode;
-    className?: string;
-    variant?: 'default' | 'glass' | 'elevated' | 'minimal' | 'gradient' | 'bordered';
-    hover?: boolean;
-    animate?: boolean;
-    delay?: number;
-    padding?: 'none' | 'sm' | 'md' | 'lg' | 'xl';
-    onClick?: () => void;
-}
+import type { CardProps } from '../types/components';
 
 export default function Card({ 
     children, 

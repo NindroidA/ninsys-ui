@@ -1,11 +1,4 @@
-import type { ReactNode } from 'react';
-
-interface GradientTextProps {
-    children: ReactNode;
-    variant?: 'primary' | 'secondary' | 'accent' | 'purple' | 'pink' | 'blue' | 'rainbow' | 'sunset' | 'ocean';
-    className?: string;
-    animated?: boolean;
-}
+import type { GradientTextProps } from '../types/components';
 
 export default function GradientText({ 
     children, 

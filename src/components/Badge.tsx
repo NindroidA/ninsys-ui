@@ -1,13 +1,4 @@
-import type { ReactNode } from 'react';
-
-interface BadgeProps {
-    children: ReactNode;
-    variant?: 'default' | 'success' | 'warning' | 'error' | 'info' | 'purple' | 'pink' | 'cyan';
-    size?: 'sm' | 'md' | 'lg';
-    className?: string;
-    icon?: ReactNode;
-    pulse?: boolean;
-}
+import type { BadgeProps } from '../types/components';
 
 export default function Badge({ 
     children, 

@@ -2,8 +2,11 @@ name: Publish to NPM
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [ main ]
+    # only trigger on push if no tag was created
+  create:
+    # only trigger on tag creation
+  workflow_dispatch:
 
 jobs:
   publish:

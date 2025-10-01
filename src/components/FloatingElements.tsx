@@ -1,9 +1,5 @@
 import { motion } from 'framer-motion';
-
-interface FloatingElementsProps {
-    variant?: 'default' | 'purple' | 'blue' | 'rainbow' | 'minimal';
-    intensity?: 'low' | 'medium' | 'high';
-}
+import type { FloatingElementsProps } from '../types/components';
 
 export default function FloatingElements({ 
     variant = 'default',

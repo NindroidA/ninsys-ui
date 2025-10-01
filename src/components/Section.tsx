@@ -1,17 +1,5 @@
 import { motion } from 'framer-motion';
-import type { ReactNode } from 'react';
-
-interface SectionProps {
-    children: ReactNode;
-    title?: string;
-    subtitle?: string;
-    className?: string;
-    background?: 'none' | 'subtle' | 'gradient' | 'dark' | 'purple';
-    padding?: 'none' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
-    maxWidth?: 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '4xl' | '6xl' | '7xl' | 'full';
-    titleIcon?: ReactNode;
-    centered?: boolean;
-}
+import type { SectionProps } from '../types/components';
 
 export default function Section({ 
     children, 
