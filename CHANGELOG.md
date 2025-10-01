@@ -1,3 +1,6 @@
+# v1.1.8
+- Crystal clear build and push.
+
 # v1.1.7
 - Ya boi forgor the freaking tailwind config file lmao.
 - Also made sure to import the css file in the main index.
