@@ -1,3 +1,7 @@
+# v1.1.7
+- Ya boi forgor the freaking tailwind config file lmao.
+- Also made sure to import the css file in the main index.
+
 # v1.1.6
 - Fixed tailwindcss version mismatch between ui and react app.
 - Updated bun lock to make sure of dependency consistensies.

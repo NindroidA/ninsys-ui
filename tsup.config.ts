@@ -7,5 +7,6 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   clean: true,
-  external: ['react', 'framer-motion', 'tailwindcss']
+  external: ['react', 'react-dom', 'react-router-dom', 'framer-motion', 'tailwindcss'],
+  injectStyle: true,
 });
