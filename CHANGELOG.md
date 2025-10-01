@@ -1,3 +1,7 @@
+# v1.1.2
+- Forgor to add index.ts into utils directory.
+- Added export of utils directory to main project index.
+
 # v1.1.1
 - Organized types directory for components.
 - Updated trigger for publish workflow
