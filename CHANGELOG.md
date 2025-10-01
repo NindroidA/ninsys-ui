@@ -1,3 +1,7 @@
+# v1.1.6
+- Fixed tailwindcss version mismatch between ui and react app.
+- Updated bun lock to make sure of dependency consistensies.
+
 # v1.1.5
 - I'm making this quite convoluted lmao.
 - Fixed publish workflow duplicate push (just went back to original).
